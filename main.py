@@ -1,7 +1,7 @@
-from ai_client import APIclient
+from ai_client import AIclient
 from agent import Agent
 
-ai_client = APIclient()
+ai_client = AIclient()
 agent = Agent(ai_client)
 
 
