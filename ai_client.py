@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-class APIclient:
+class AIclient:
     def __init__(self):
         self.api_key = os.getenv("API_KEY")
         self.model_name = "gemini-3-flash-preview"
